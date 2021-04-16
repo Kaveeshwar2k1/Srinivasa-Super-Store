@@ -1,3 +1,3 @@
-# Srinivasa-Super-Store
+# <span style="color:yellow;">Srinivasa-Super-Store</span>
 A site for a Department Store in Mohanur, Namakkal, Tamil Nadu.
-# Visit : https://kaveeshwar2k1.github.io/Srinivasa-Super-Store/
+<br><a target="_blank" href="https://kaveeshwar2k1.github.io/Srinivasa-Super-Store/">Visit</a>
