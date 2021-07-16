@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<link rel="icon" href="img/SSS LOGO.png">
+<title>Srinivasa Super Store</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/uikit.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="js/uikit.min.js"></script>
+  <script src="js/uikit-icons.min.js"></script>
+</head>
+<body>
+  <nav class="uk-navbar-container" uk-sticky="animation: uk-animation-slide-top" uk-navbar>
+    <div class="uk-navbar-left uk-animation-toggle" tabindex="0">
+      <a class="uk-animation-scale-up" href="index.html">
+        <img class="uk-navbar-item uk-logo" src="img/SSS LOGO.png" height="70" width="149">
+      </a>
+    </div>
+        <div class="uk-navbar-right"><div>
+            <ul class="uk-navbar-nav">
+                <li>
+                  <a href="#home">Home</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li class="uk-inline">
+                    <a>Call Us</a>
+                    <div uk-dropdown="mode: hover">
+                      <ul class="uk-nav uk-dropdown-nav">
+                        <li>
+                          <a href="tel:+91-82200-69555"><span uk-icon="icon:receiver"></span>8220069555</a>
+                        </li>
+                        <br>
+                        <li>
+                          <a href="tel:+91-94869-32520"><span uk-icon="icon:receiver"></span>9486932520</a>
+                        </li>
+                      </ul>
+                    </div>
+                </li>
+                <li>
+                  <a target="_blank" href="https://www.google.com/maps/dir//srinivasa+super+store+mohanur/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x3baa32f596df0aeb:0xe069d0c40b843b2a?sa=X&ved=2ahUKEwjUwL7U54HwAhW3yDgGHQ7pA80Q9RcwE3oECCoQBQ">Meet Us</a>
+                </li>
+            </ul>
+        </div></div>
+  </nav>              
+  <div id="home" class="uk-height-large uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="img/1.jpg" uk-img>
+      <div class="uk-overlay uk-overlay-default uk-position-center" style="animation-duration: 1s;" uk-scrollspy="cls: uk-animation-kenburns; repeat: true">
+          <p style="font-size:1cm;color:rgb(0, 0, 0);">Srinivasa Super Store</p>
+      </div>
+  </div>
+  <hr class="uk-divider-icon">
+  <!--hello-->
+  <div class="uk-h3"></div>
+
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio:7:3; autoplay: true;autoplay-interval:5000; pause-on-hover: true; animation: pull">
+
+            <ul class="uk-slideshow-items">
+                <li>
+                    <img src="img/grocery.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                      <h3 class="uk-margin-remove">Groceries</h3>
+                      <p class="uk-margin-remove">First-in-Class groceries that make food delicious with nutrition.</p>
+                  </div>
+                </li>
+                <li>
+                    <img src="img/masala1.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                      <h3 class="uk-margin-remove">Flours</h3>
+                      <p class="uk-margin-remove">Well grainded high quality grains and millets for a healthy diet.</p>
+                  </div>
+                </li>
+                <li>
+                    <img src="img/masala.jpg" alt="" uk-cover>
+                    <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                      <h3 class="uk-margin-remove">Masalas</h3>
+                      <p class="uk-margin-remove">Hygienely packed instant masalas with no-added chemicals and preservatives favoured by moms for it's taste and aroma.</p>
+                  </div>
+                </li>
+                <li>
+                  <img src="img/snack.jpg" alt="" uk-cover>
+                  <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                    <h3 class="uk-margin-remove">Snacks</h3>
+                    <p class="uk-margin-remove">Tasty, Healthy snacks that every child and grown-ups crave for!</p>
+                </div>
+              </li>
+              <li>
+                <img src="img/placer.jpg" alt="" uk-cover>
+                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                  <h3 class="uk-margin-remove">Plastics and Ceramics</h3>
+                  <p class="uk-margin-remove">Top quality Plastics and Ceramics adapting with the trend.</p>
+              </div>
+            </li>
+            <li>
+              <img src="img/ss.jpg" alt="" uk-cover>
+              <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center">
+                <h3 class="uk-margin-remove">Silverware</h3>
+                <p class="uk-margin-remove">Stainless Steels that last long.</p>
+            </div>
+          </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+        </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
