@@ -1,0 +1,13 @@
+.bottom{
+    padding-top: 50px;
+    text-align: center;
+    background-color: #F6DFEB;
+    margin-bottom: 0;
+
+}
+.contact{
+    width: 300px;
+    position: relative;
+    left: 500px;
+    text-align: right;
+}
